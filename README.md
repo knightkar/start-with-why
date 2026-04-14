@@ -29,6 +29,11 @@ start-with-why/
               ├── golden-circle.svg
               ├── leadership-icon.svg
               ├── diffusion-curve.svg
+              ├── trust-icon.svg
+              ├── consistency-icon.svg
+              ├── celery-test.svg
+              ├── manipulations-vs-inspiration.svg
+              ├── leadership-expanded.svg
               └── brain-diagram.svg
 
 ---
