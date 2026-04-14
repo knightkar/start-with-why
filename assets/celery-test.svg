@@ -1,0 +1,14 @@
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .celery { fill: rgba(102, 255, 166, 0.25); stroke: #66FFA6; stroke-width: 3; }
+    .label { fill: #F5F5F7; font-family: -apple-system, sans-serif; font-size: 14px; text-anchor: middle; }
+  </style>
+
+  <!-- Celery Stalk -->
+  <rect class="celery" x="110" y="60" width="40" height="140" rx="10"/>
+
+  <!-- Leaves -->
+  <ellipse class="celery" cx="130" cy="50" rx="35" ry="15"/>
+
+  <text class="label" x="130" y="225">Aligned Choices</text>
+</svg>
