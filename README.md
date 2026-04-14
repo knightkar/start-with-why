@@ -21,13 +21,21 @@ This project is designed as:
 
 
 start-with-why/
+
 ├── index.html        # Single-page layout and content
+
 ├── styles.css        # Layout, typography, animations
+
 ├── script.js         # Scroll-based animations and interactions
+
 └── assets/           # SVG illustrations used in the page
+
 ├── golden-circle.svg
+
 ├── leadership-icon.svg
+
 ├── diffusion-curve.svg
+
 └── brain-diagram.svg
 
 ---
