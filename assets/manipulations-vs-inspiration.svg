@@ -1,0 +1,15 @@
+<svg width="320" height="260" viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bad { fill: rgba(255, 102, 102, 0.25); stroke: #FF6666; stroke-width: 2; }
+    .good { fill: rgba(102, 255, 166, 0.25); stroke: #66FFA6; stroke-width: 2; }
+    .label { fill: #F5F5F7; font-family: -apple-system, sans-serif; font-size: 12px; text-anchor: middle; }
+  </style>
+
+  <!-- Manipulation Box -->
+  <rect class="bad" x="40" y="60" width="100" height="140" rx="10"/>
+  <text class="label" x="90" y="140">Manipulation</text>
+
+  <!-- Inspiration Box -->
+  <rect class="good" x="180" y="60" width="100" height="140" rx="10"/>
+  <text class="label" x="230" y="140">Inspiration</text>
+</svg>
