@@ -1,0 +1,26 @@
+<svg width="320" height="260" viewBox="0 0 320 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .leader { fill: #FFD166; }
+    .follower { fill: rgba(255, 209, 102, 0.25); }
+    .arrow { stroke: #FFD166; stroke-width: 3; marker-end: url(#arrowhead); }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#FFD166"/>
+    </marker>
+  </defs>
+
+  <!-- Leader -->
+  <circle class="leader" cx="160" cy="80" r="14"/>
+
+  <!-- Followers -->
+  <circle class="follower" cx="110" cy="150" r="12"/>
+  <circle class="follower" cx="160" cy="170" r="12"/>
+  <circle class="follower" cx="210" cy="150" r="12"/>
+
+  <!-- Arrows -->
+  <line class="arrow" x1="160" y1="95" x2="110" y2="140"/>
+  <line class="arrow" x1="160" y1="95" x2="160" y2="155"/>
+  <line class="arrow" x1="160" y1="95" x2="210" y2="140"/>
+</svg>
