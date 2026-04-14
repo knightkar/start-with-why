@@ -1,0 +1,13 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .circle { fill: none; stroke: #ffd166; stroke-width: 3; }
+      .leader { fill: #ffd166; }
+      .follower { fill: rgba(255, 209, 102, 0.3); }
+    </style>
+  </defs>
+  <circle class="circle" cx="100" cy="100" r="70" />
+  <circle class="leader" cx="100" cy="80" r="10" />
+  <circle class="follower" cx="70" cy="120" r="8" />
+  <circle class="follower" cx="130" cy="120" r="8" />
+</svg>
