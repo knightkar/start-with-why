@@ -1,16 +1,20 @@
-<svg width="320" height="320" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .outer { fill: none; stroke: #ffd166; stroke-width: 4; opacity: 0.4; }
-      .middle { fill: none; stroke: #ffd166; stroke-width: 4; opacity: 0.7; }
-      .inner { fill: none; stroke: #ffd166; stroke-width: 4; }
-      .label { fill: #f5f5f7; font-family: system-ui, -apple-system, sans-serif; font-size: 14px; text-anchor: middle; }
-    </style>
-  </defs>
-  <circle class="outer" cx="160" cy="160" r="130" />
-  <circle class="middle" cx="160" cy="160" r="90" />
-  <circle class="inner" cx="160" cy="160" r="50" />
-  <text class="label" x="160" y="160">WHY</text>
-  <text class="label" x="160" y="90">HOW</text>
-  <text class="label" x="160" y="40">WHAT</text>
+<svg width="360" height="360" viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ring { fill: none; stroke: #FFD166; stroke-width: 4; }
+    .label { fill: #F5F5F7; font-family: -apple-system, BlinkMacSystemFont, sans-serif; font-size: 18px; text-anchor: middle; }
+  </style>
+
+  <!-- Outer Ring (WHAT) -->
+  <circle class="ring" cx="180" cy="180" r="140" opacity="0.35"/>
+
+  <!-- Middle Ring (HOW) -->
+  <circle class="ring" cx="180" cy="180" r="95" opacity="0.6"/>
+
+  <!-- Inner Ring (WHY) -->
+  <circle class="ring" cx="180" cy="180" r="50"/>
+
+  <!-- Labels -->
+  <text class="label" x="180" y="180">WHY</text>
+  <text class="label" x="180" y="80">HOW</text>
+  <text class="label" x="180" y="35">WHAT</text>
 </svg>
