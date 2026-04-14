@@ -1,13 +1,17 @@
-<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <style>
-      .circle { fill: none; stroke: #ffd166; stroke-width: 3; }
-      .leader { fill: #ffd166; }
-      .follower { fill: rgba(255, 209, 102, 0.3); }
-    </style>
-  </defs>
-  <circle class="circle" cx="100" cy="100" r="70" />
-  <circle class="leader" cx="100" cy="80" r="10" />
-  <circle class="follower" cx="70" cy="120" r="8" />
-  <circle class="follower" cx="130" cy="120" r="8" />
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .ring { fill: none; stroke: #FFD166; stroke-width: 3; }
+    .leader { fill: #FFD166; }
+    .follower { fill: rgba(255, 209, 102, 0.25); }
+  </style>
+
+  <!-- Leadership Circle -->
+  <circle class="ring" cx="130" cy="130" r="90"/>
+
+  <!-- Leader -->
+  <circle class="leader" cx="130" cy="100" r="14"/>
+
+  <!-- Followers -->
+  <circle class="follower" cx="90" cy="150" r="10"/>
+  <circle class="follower" cx="170" cy="150" r="10"/>
 </svg>
