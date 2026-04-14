@@ -1,0 +1,14 @@
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bar { fill: rgba(255, 209, 102, 0.25); stroke: #FFD166; stroke-width: 2; }
+    .line { stroke: #FFD166; stroke-width: 3; }
+  </style>
+
+  <!-- Bars -->
+  <rect class="bar" x="60" y="120" width="30" height="80"/>
+  <rect class="bar" x="115" y="100" width="30" height="100"/>
+  <rect class="bar" x="170" y="80" width="30" height="120"/>
+
+  <!-- Baseline -->
+  <line class="line" x1="40" y1="200" x2="220" y2="200"/>
+</svg>
