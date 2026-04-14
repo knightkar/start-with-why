@@ -1,0 +1,18 @@
+<svg width="260" height="260" viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .outline { fill: none; stroke: #FFD166; stroke-width: 3; }
+    .heart { fill: rgba(255, 209, 102, 0.25); stroke: #FFD166; stroke-width: 2; }
+  </style>
+
+  <!-- Shield -->
+  <path class="outline"
+        d="M130 40 L200 80 L200 150 C200 190 170 220 130 230 C90 220 60 190 60 150 L60 80 Z"/>
+
+  <!-- Heart -->
+  <path class="heart"
+        d="M130 150
+           C 110 130, 80 120, 80 145
+           C 80 170, 110 185, 130 205
+           C 150 185, 180 170, 180 145
+           C 180 120, 150 130, 130 150 Z"/>
+</svg>
